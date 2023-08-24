@@ -1,12 +1,25 @@
-.contact_list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.list {
+  margin-top: 32px;
 }
 
-.contact_item {
-  width: 300px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.item {
+  font-size: 16px;
+}
+
+.item:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.button {
+  cursor: pointer;
+  margin-left: 24px;
+  padding: 2px 16px;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.button:hover {
+  outline: 1px solid #000;
 }

@@ -1,17 +1,16 @@
-.filter {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.label {
+  font-size: 18px;
+  margin-right: 8px;
 }
 
-.filter p {
-  font-weight: bold;
+.input {
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid #000;
+  border-radius: 4px;
 }
 
-.filter input {
-  padding: 5px;
-  overflow: hidden;
-  border: 3px solid black;
-  border-radius: 20px;
+.input:hover,
+.input:focus {
+  outline: 1px solid #000;
 }

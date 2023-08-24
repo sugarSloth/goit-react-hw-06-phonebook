@@ -1,12 +1,12 @@
-.app {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.container {
+  padding: 16px;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.main_title {
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+
+.title {
+  margin-bottom: 16px;
 }
