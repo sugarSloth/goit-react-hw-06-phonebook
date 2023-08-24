@@ -1,10 +1,13 @@
 .list {
-  margin-top: 32px;
-}
+display: flex;
+  flex-direction: column;
+  gap: 10px;}
 
 .item {
-  font-size: 16px;
-}
+width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;}
 
 .item:not(:last-of-type) {
   margin-bottom: 8px;
@@ -12,14 +15,14 @@
 
 .button {
   cursor: pointer;
-  margin-left: 24px;
-  padding: 2px 16px;
-  font-size: 14px;
-  border: 1px solid #000;
-  border-radius: 4px;
-  background-color: #fff;
+  padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(200, 120, 254);
+    font-weight: bold;
 }
 
-.button:hover {
-  outline: 1px solid #000;
+.button:hover,
+.button:focus {
+  background-color: rgb(95, 0, 112);
+  color: white;
 }

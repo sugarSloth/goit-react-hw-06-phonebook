@@ -1,12 +1,13 @@
 .container {
-  padding: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 340px;
 }
 
-.main_title {
-  margin-bottom: 24px;
-  font-size: 40px;
-}
-
-.title {
-  margin-bottom: 16px;
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
