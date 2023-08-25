@@ -14,7 +14,7 @@ export function ContactForm() {
     const newName = form.elements.name.value;
     const newNumber = form.elements.number.value;
 
-    if (contacts.find(({ name }) => name.toLowerCase === newName.toLowerCase)) {
+    if (contacts.find(({ name }) => name.toLowerCase() === newName.toLowerCase())) {
       alert(`${newName} is already in contacts`);
       return; // Припиняє виконання функції
     }
